@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(142, 180, 180);
+}
+#divison1 {
+    border: 10px dashed rgb(0, 0, 0);
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-size: 1675px;
+    padding: 15px;
+    background-clip: border-box;
+    margin-bottom: 40px;
+}
+
+#divison2 {
+
+
+    background: url(bg-3.jpg), url(bg-3.jpg), url(bg-1.png);
+    padding: 30px;
+    background-clip: padding-box;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    background-position: left, right, center;
+    margin-bottom: 40px;
+}
+
+#divison3 {
+    border: 10px dashed rgb(106, 77, 77);
+    background-color: rgb(82, 90, 106);
+    padding: 15px;
+    background-clip: content-box;
+}
+
+.parent {
+    border: 5px solid rgb(0, 0, 0);
+    padding: 90px 50px;
+    margin: 10px 200px;
+    background: rgb(63, 99, 95);
+    text-align: center;
+
+}
+
+#child {
+    border: 5px solid blue;
+    padding: 20px;
+    margin: auto;
+}
